@@ -18,7 +18,7 @@ class VacuumAgent:
 
 
 def run_simulation(steps=4):
-    environment = {"A": "Clean", "B": "Dirty"}
+    environment = {"A": "Dirty", "B": "Dirty"}
     agent = VacuumAgent(start_location="A")
     
     print("Initial Environment State:", environment)
